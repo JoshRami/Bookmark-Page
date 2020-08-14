@@ -1,0 +1,21 @@
+{
+  "name": "bookmark-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Bookmark landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles/style.css -o styles/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.6.0"
+  },
+  "devDependencies": {
+    "tailwind-percentage-heights-plugin": "^0.1.4",
+    "tailwindcss-pseudo-elements": "^1.1.2"
+  }
+}
